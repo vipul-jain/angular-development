@@ -1,0 +1,28 @@
+<div class="container">
+    <form name="loginform">
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-3">
+                Email :
+            </div>
+            <div class="col-sm-4">
+                <input type="text" class="form-control" ng-model="user.email" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-sm-offset-3">
+                Password :
+            </div>
+            <div class="col-sm-4">
+                <input type="password" class="form-control" ng-model="user.password" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 col-sm-offset-5">
+                <input type="button" value="Login" class="btn btn-success" ng-click="fnLogin()"/>
+            </div>
+            <div class="col-sm-1">
+                <input type="reset" value="Clear" class="btn btn-danger" />
+            </div>
+        </div>
+    </form>
+</div>
